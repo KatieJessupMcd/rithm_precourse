@@ -1,0 +1,16 @@
+Create a local repository and add and commit some files
+mkdir practice 
+cd fractie
+touch kittycat.txt
+git init
+git add
+git commit -m “initial commit”
+
+Create a remote repository and push your code from the local repo to the remote
+git remote 
+
+Fork the repo https://github.com/rithmschool/git_practice - clone it and submit a pull request
+
+Create a new branch locally and push it to GitHub
+
+Submit a pull request with your new branch against the master branch on the git_practice repo.

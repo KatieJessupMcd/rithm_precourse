@@ -1,0 +1,36 @@
+Part I
+Answer the following questions:
+
+What does git clean do?
+removes a file rom the working directory that is untracked or unmarked
+
+What do the -d and -f flags for git clean do?
+-d removed untracked directories and files. -f if force, b/c git clean will refuse to delete files or directories unless it is handed this flag
+
+What git command creates a branch?
+git checkout -b
+
+What is the difference between a fast-forward and recursive merge?
+a fast forward merge is when git can look back in the timeline and easily put one set of commits on another chronologically 
+
+What git command changes to another branch?
+git checkout
+
+How do you remove modified or deleted files from the working directory?
+git checkout
+
+What git command deletes a branch?
+git branch -D
+
+What does the git diff command do?
+compares the history of your code at two different points in the timeline, show you the difference between two commits
+
+How do you remove files from the staging area?
+git rm —cached name_of_file
+
+How do merge conflicts happen?
+When there is the same file that has been edited in two different branches at different times and git does not know which one to go with 
+
+Part II
+Create your own merge conflict! Work on the same file on two separate branches and merge the two branches together. Fix the conflicts and finish your merge. In the real world you will never intentionally try to create merge conflicts, but it is important to understand how and why they are created. Most importantly, it's important not to be intimidated by merge conflicts, and to be able to fix them with confidence!
+
